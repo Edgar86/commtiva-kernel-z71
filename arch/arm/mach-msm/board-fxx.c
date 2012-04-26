@@ -1766,7 +1766,7 @@ static void __init msm7x2x_init(void)
 	ar6k_wifi_status_cb=NULL; 
 	ar6k_wifi_status_cb_devid=NULL;
 
-	msm7x2x_clock_data.max_axi_khz = 200000;
+	msm7x2x_clock_data.max_axi_khz = 422400;
 
 	msm_acpu_clock_init(&msm7x2x_clock_data);
 	msm_read_serial_number_from_nvitem();
